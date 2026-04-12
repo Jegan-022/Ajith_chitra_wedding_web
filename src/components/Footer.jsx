@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="max-w-3xl mx-auto text-center relative z-10">
         {/* Monogram */}
         <div className="mb-6">
-          <span className="font-script text-5xl gold-text">S & AK</span>
+          <span className="font-script text-5xl gold-text">AK & Mathi</span>
         </div>
 
         {/* Divider */}
@@ -30,7 +30,7 @@ export default function Footer() {
 
         {/* Date & Location */}
         <p className="font-sans text-xs tracking-[0.3em] uppercase text-yellow-400/60 mb-8">
-          June 15, 2026 &nbsp;✦&nbsp; Chennai, Tamil Nadu
+          August 23 , 2026 &nbsp;✦&nbsp; Palani, Tamil Nadu
         </p>
 
         {/* Social Icons */}
@@ -73,6 +73,7 @@ export default function Footer() {
         <div className="flex items-center justify-center gap-2 text-white/30 text-xs tracking-widest">
           <FaHeart size={10} className="text-pink-500" />
           <span>Made with love for Srimathi & Ajith Kumar · 2026</span>
+          <span>By R.Jegatheeswaran Tech Innovations</span>
           <FaHeart size={10} className="text-pink-500" />
         </div>
       </div>
