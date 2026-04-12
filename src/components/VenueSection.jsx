@@ -43,7 +43,7 @@ export default function VenueSection() {
                 Kalyana Mandapam
               </h3>
               <p className="text-white/70 font-elegant italic text-sm">
-                📍 Anna Salai, Chennai, Tamil Nadu 600002
+                📍 Sri Jaga Shankara Mahal 
               </p>
             </div>
           </div>
@@ -55,11 +55,11 @@ export default function VenueSection() {
               <h4 className="font-serif text-xl font-bold text-gray-800 mb-4">Venue Details</h4>
               <div className="space-y-3">
                 {[
-                  { icon: '📅', label: 'Date', val: 'June 15, 2026' },
+                  { icon: '📅', label: 'Date', val: 'August 23, 2026' },
                   { icon: '⏰', label: 'Time', val: '9:00 AM Onwards' },
-                  { icon: '📍', label: 'Address', val: 'Kalyana Mandapam, Anna Salai, Chennai' },
+                  { icon: '📍', label: 'Address', val: 'Sri Jaga Sankara Mahal,Thiru nagar,Sivagiripatti,palani,Tamil nadu' },
                   { icon: '🚗', label: 'Parking', val: 'Available at venue' },
-                  { icon: '📞', label: 'Contact', val: '+91 98765 43210' },
+                  { icon: '📞', label: 'Contact', val: '+91 9047345183,9626563226,6382104870' },
                 ].map(item => (
                   <div key={item.label} className="flex items-start gap-3">
                     <span className="text-xl flex-shrink-0">{item.icon}</span>
