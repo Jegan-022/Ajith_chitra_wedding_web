@@ -15,7 +15,7 @@ export default function LoadingScreen() {
         </div>
       </div>
 
-      <p className="font-script text-4xl gold-text mb-2">Srimathi & Ajith Kumar</p>
+      <p className="font-script text-4xl gold-text mb-2">Ajith Kumar & Srimathi </p>
       <p className="text-white/40 text-xs tracking-[0.3em] uppercase font-sans">Loading your invite...</p>
 
       {/* Progress bar */}
