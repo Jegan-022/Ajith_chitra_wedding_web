@@ -111,13 +111,13 @@ export default function HeroSection() {
           </h1>
 
           <p className="font-elegant italic text-white/70 text-base md:text-lg leading-relaxed max-w-md" style={{ opacity: 0 }}>
-            "We Invite You To Celebrate Our Wedding"
+            "We cordially Invite You To Celebrate Our Wedding"
           </p>
 
           <div style={{ opacity: 0 }}>
             <p className="font-script text-2xl md:text-3xl" style={{ color: '#f5ddbb' }}>23rd August 2026</p>
             <p className="font-elegant text-white/50 tracking-[0.25em] uppercase text-xs md:text-sm mt-1">
-              Chennai, Tamil Nadu, India
+              Palani, Tamil Nadu, India
             </p>
           </div>
 
@@ -210,7 +210,7 @@ export default function HeroSection() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/40 animate-bounce flex flex-col items-center gap-1 z-10">
-        <span className="text-xs tracking-widest uppercase font-sans">Scroll</span>
+        <span className="text-xs tracking-widest uppercase font-sans">Scroll 🫣👇</span>
         <FaChevronDown size={14} />
       </div>
     </section>
