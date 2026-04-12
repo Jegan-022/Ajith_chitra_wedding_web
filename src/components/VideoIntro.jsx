@@ -82,9 +82,9 @@ export default function VideoIntro({ onComplete }) {
           Together Forever
         </p>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold leading-tight drop-shadow-lg">
-          <span className="gold-text">Srimathi</span>
-          <span className="text-white/60 mx-4 md:mx-6 text-3xl md:text-5xl">&</span>
           <span className="gold-text">Ajith Kumar</span>
+          <span className="text-white/60 mx-4 md:mx-6 text-3xl md:text-5xl">&</span>
+          <span className="gold-text">Srimathi</span>
         </h1>
         <div className="divider-gold mt-6 mb-4" />
         <p className="font-elegant text-white/70 text-lg md:text-xl tracking-widest uppercase drop-shadow-md">
