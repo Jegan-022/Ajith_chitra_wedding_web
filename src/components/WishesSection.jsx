@@ -6,12 +6,12 @@ import { FaQuoteLeft } from 'react-icons/fa'
 gsap.registerPlugin(ScrollTrigger)
 
 const wishes = [
-  { name: 'Priya & Rahul', wish: 'Wishing you both a lifetime of happiness, laughter, and endless love. May every day be as beautiful as your wedding day!', emoji: '💑' },
-  { name: 'Ananya', wish: 'Two souls, one heart. Congratulations Srimathi & Ajith! May your love story be the most beautiful one ever told. 💕', emoji: '🌸' },
-  { name: 'Karthik & Family', wish: 'May your home be filled with warmth, laughter, and love. So happy to witness the beginning of your forever!', emoji: '🏡' },
-  { name: 'Meena Aunty', wish: 'Your love is a blessing to all who witness it. Wishing you eternal happiness and togetherness. God bless you both! 🙏', emoji: '🌺' },
-  { name: 'Ravi & Divya', wish: 'Today you become each other\'s greatest adventure. Here\'s to a lifetime of beautiful discoveries together!', emoji: '✈️' },
-  { name: 'College Friends', wish: 'From college corridors to wedding halls — what a journey! You two are the best love story we know. Cheers! 🥂', emoji: '🎓' },
+  { name: 'Jegan & Raksana ', wish: 'Wishing you both a lifetime of happiness, laughter, and endless love. May every day be as beautiful as your wedding day!', emoji: '💑' },
+  { name: 'Amma & Appa ', wish: 'Two souls, one heart. Congratulations Srimathi & Ajith! May your love story be the most beautiful one ever told. 💕', emoji: '🌸' },
+  { name: 'Charu & Sanjeev', wish: 'May your home be filled with warmth, laughter, and love. So happy to witness the beginning of your forever!', emoji: '🏡' },
+  { name: 'Ammachi /Saravana mama & Nandhini Akka ', wish: 'Your love is a blessing to all who witness it. Wishing you eternal happiness and togetherness. God bless you both! 🙏', emoji: '🌺' },
+  { name: 'chithappa & chithi', wish: 'Today you become each other\'s greatest adventure. Here\'s to a lifetime of beautiful discoveries together!', emoji: '✈️' },
+  { name: 'Sondha Bandhams 😂', wish: 'From college corridors to wedding halls — what a journey! You two are the best love story we know. Cheers! 🥂', emoji: '🎓' },
 ]
 
 export default function WishesSection() {
