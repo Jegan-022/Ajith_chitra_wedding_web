@@ -76,7 +76,7 @@ export default function VenueSection() {
             <div className="rounded-2xl overflow-hidden" style={{ minHeight: '250px' }}>
               <iframe
                 title="Wedding Venue Map"
-                src="https://www.google.com/maps?q=10.446876,77.535813"
+                src="https://www.google.com/maps?q=10.446876,77.535813&output=embed"
                 height="100%"
                 style={{ border: 'none', minHeight: '250px' }}
                 allowFullScreen
