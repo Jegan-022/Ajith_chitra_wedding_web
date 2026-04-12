@@ -59,7 +59,7 @@ export default function VenueSection() {
                   { icon: '⏰', label: 'Time', val: '9:00 AM Onwards' },
                   { icon: '📍', label: 'Address', val: 'Sri Jaga Sankara Mahal,Thiru nagar,Sivagiripatti,palani,Tamil nadu' },
                   { icon: '🚗', label: 'Parking', val: 'Available at venue' },
-                  { icon: '📞', label: 'Contact', val: '+91 9047345183,9626563226,6382104870' },
+                  { icon: '📞', label: 'Contact', val: '+91 9047345183, +91 9626563226, +91 6382104870' },
                 ].map(item => (
                   <div key={item.label} className="flex items-start gap-3">
                     <span className="text-xl flex-shrink-0">{item.icon}</span>
@@ -76,8 +76,7 @@ export default function VenueSection() {
             <div className="rounded-2xl overflow-hidden" style={{ minHeight: '250px' }}>
               <iframe
                 title="Wedding Venue Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.6484!2d80.2707!3d13.0827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1234567890"
-                width="100%"
+                src="https://maps.app.goo.gl/hqxTWyEMnXu9jii9A"
                 height="100%"
                 style={{ border: 'none', minHeight: '250px' }}
                 allowFullScreen
