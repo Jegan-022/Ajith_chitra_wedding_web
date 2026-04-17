@@ -34,7 +34,7 @@ export default function RSVPSection() {
           <h2 className="section-title" style={{ color: '#f5ddbb' }}>RSVP</h2>
           <div className="divider-gold mt-4 mb-6" />
           <p className="font-elegant italic text-white/60 text-base">
-            Please reply by May 31st, 2026
+            Please reply by July 31st, 2026
           </p>
         </div>
 
@@ -129,7 +129,7 @@ export default function RSVPSection() {
             </p>
             <div className="divider-gold mt-6" />
             <p className="text-white/50 text-sm mt-4 tracking-widest uppercase">
-              See you on June 15, 2026 ✨
+              See you on August 23, 2026 ✨
             </p>
           </div>
         )}
