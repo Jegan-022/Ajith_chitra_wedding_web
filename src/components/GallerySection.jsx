@@ -2,20 +2,11 @@ import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { imagesConfig } from '../config/images'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const images = [
-  { src: '/WhatsApp Image 2026-03-14 at 5.39.21 PM.jpeg', alt: 'Couple photo 1' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.39.23 PM.jpeg', alt: 'Couple photo 2' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.39.27 PM.jpeg', alt: 'Couple photo 3' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.39.31 PM.jpeg', alt: 'Couple photo 4' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.39.43 PM.jpeg', alt: 'Couple photo 5' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.40.27 PM.jpeg', alt: 'Couple photo 6' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.40.28 PM.jpeg', alt: 'Couple photo 7' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.40.29 PM.jpeg', alt: 'Couple photo 8' },
-  { src: '/Gemini_Generated_Image_xs1qomxs1qomxs1q.png', alt: 'Couple photo 9' },
-]
+const images = imagesConfig.gallery
 
 // Masonry column assignments
 const cols = [

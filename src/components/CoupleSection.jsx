@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { imagesConfig } from '../config/images'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -8,7 +9,7 @@ const couple = [
   {
     role: 'Bride',
     name: 'Srimathi',
-    img: '/WhatsApp Image 2026-03-14 at 5.39.23 PM.jpeg',
+    img: imagesConfig.couple.bride,
     quote: '"She is clothed in strength and dignity; she laughs without fear of the future."',
     color: 'from-pink-100 to-rose-100',
     glow: 'rgba(255,182,193,0.6)',
@@ -16,7 +17,7 @@ const couple = [
   {
     role: 'Groom',
     name: 'Ajith Kumar',
-    img: '/WhatsApp Image 2026-03-14 at 5.39.21 PM.jpeg',
+    img: imagesConfig.couple.groom,
     quote: '"He is her sun and she is his universe; together they are one beautiful world."',
     color: 'from-amber-50 to-yellow-100',
     glow: 'rgba(201,168,76,0.4)',

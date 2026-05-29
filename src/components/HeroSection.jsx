@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { FaChevronDown, FaHeart } from 'react-icons/fa'
+import { imagesConfig } from '../config/images'
 
 const WEDDING_DATE = new Date('2026-08-23T09:00:00')
 
@@ -171,7 +172,7 @@ export default function HeroSection() {
               }}
             >
               <img
-                src="/Gemini_Generated_Image_xs1qomxs1qomxs1q.png"
+                src={imagesConfig.hero}
                 alt="Srimathi and Ajith Kumar"
                 className="w-full h-full object-cover object-top"
                 style={{ 

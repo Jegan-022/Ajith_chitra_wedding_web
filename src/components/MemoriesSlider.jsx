@@ -5,17 +5,9 @@ import 'swiper/css'
 import 'swiper/css/effect-fade'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
+import { imagesConfig } from '../config/images'
 
-const slides = [
-  { src: '/WhatsApp Image 2026-03-14 at 5.39.21 PM.jpeg', caption: 'Beautiful moments we shared' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.39.23 PM.jpeg', caption: 'Every smile tells our story' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.39.27 PM.jpeg', caption: 'Together is our favourite place' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.39.31 PM.jpeg', caption: 'Love is everything we are' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.39.43 PM.jpeg', caption: 'Two hearts, one beautiful journey' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.40.27 PM.jpeg', caption: 'Forever starts right here' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.40.28 PM.jpeg', caption: 'You make every moment magical' },
-  { src: '/WhatsApp Image 2026-03-14 at 5.40.29 PM.jpeg', caption: 'Our story, written in love' },
-]
+const slides = imagesConfig.memories
 
 export default function MemoriesSlider() {
   return (

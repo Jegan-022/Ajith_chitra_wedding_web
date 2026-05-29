@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { imagesConfig } from '../config/images'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -10,7 +11,7 @@ const steps = [
     label: 'First Meeting',
     icon: '💫',
     date: 'January 2022',
-    img: '/WhatsApp Image 2026-03-14 at 5.39.31 PM.jpeg',
+    img: imagesConfig.story.step1,
     desc: 'A chance encounter turned into a magical moment that neither of them could forget. Their eyes met and the world stood still — the beginning of a beautiful journey.',
   },
   {
@@ -18,7 +19,7 @@ const steps = [
     label: 'Smooth Bike Rides',
     icon: '🏍️',
     date: 'March 2022',
-    img: '/WhatsApp Image 2026-03-14 at 5.39.43 PM.jpeg',
+    img: imagesConfig.story.step2,
     desc: 'A day fully spent together with fun and created lot more new memories.',
   },
   {
@@ -26,7 +27,7 @@ const steps = [
     label: 'Poo vaikum Ceremony',
     icon: '💍',
     date: 'December 2024',
-    img: '/WhatsApp Image 2026-03-14 at 5.40.27 PM.jpeg',
+    img: imagesConfig.story.step3,
     desc: 'Under a sky full of stars, he got down on one knee and asked the most beautiful question. She said yes, and their hearts became one forever.',
   },
   {
@@ -34,7 +35,7 @@ const steps = [
     label: 'Wedding',
     icon: '👰',
     date: 'June 2026',
-    img: '/WhatsApp Image 2026-03-14 at 5.40.28 PM.jpeg',
+    img: imagesConfig.story.step4,
     desc: 'The culmination of a love story written in the stars — two families united, two hearts joined as one in a celebration of eternal love and commitment.',
   },
 ]

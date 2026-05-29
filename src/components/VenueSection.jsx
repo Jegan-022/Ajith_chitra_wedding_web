@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { imagesConfig } from '../config/images'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -33,7 +34,7 @@ export default function VenueSection() {
           {/* Venue photo */}
           <div className="relative h-64 md:h-80 overflow-hidden">
             <img
-              src="/WhatsApp Image 2026-03-14 at 5.40.29 PM.jpeg"
+              src={imagesConfig.venue}
               alt="Wedding Venue"
               className="w-full h-full object-cover"
             />

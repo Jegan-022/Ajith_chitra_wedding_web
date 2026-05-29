@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
+import { imagesConfig } from '../config/images'
 
-const WEDDING_BG = 'https://static.vecteezy.com/system/resources/previews/047/274/684/non_2x/beautiful-indoor-wedding-aisle-with-elegant-floral-decorations-in-soft-pastel-colors-creating-a-romantic-and-enchanting-atmosphere-photo.jpg'
+const WEDDING_BG = imagesConfig.weddingBackground
 
 export default function AnimatedBackground() {
   const bg1Ref = useRef(null)
