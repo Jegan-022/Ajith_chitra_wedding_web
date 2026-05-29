@@ -11,7 +11,7 @@ const wishes = [
   { name: 'chithi & chithappa ', wish: 'May your home be filled with warmth, laughter, and love. So happy to witness the beginning of your forever!', emoji: '🏡' },
   { name: 'Ammachi /Saravana mama & Nandhini Akka ', wish: 'Your love is a blessing to all who witness it. Wishing you eternal happiness and togetherness. God bless you both! 🙏', emoji: '🌺' },
   { name: 'Mano mama & Dhana Aunty', wish: 'Today you become each other\'s greatest adventure. Here\'s to a lifetime of beautiful discoveries together!', emoji: '✈️' },
-  { name: 'Sondha Bandhams ', wish: 'Iruvarum pallandu vaazha vaazhthukal,pathinaarum petru peru vaalvu vaalha 🥂', emoji: '🎓' },
+  { name: 'Sondha Bandhams ', wish: 'Iruvarum pallandu vaazha vaazhthukal,pathinaarum petru peru vaalvu vaalha 🥂', emoji: '😁' },
 ]
 
 export default function WishesSection() {
