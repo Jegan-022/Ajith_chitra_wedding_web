@@ -18,7 +18,7 @@ const couple = [
     role: 'Groom',
     name: 'Ajith Kumar',
     img: imagesConfig.couple.groom,
-    quote: '"He is her sun and she is his universe; together they are one beautiful world."',
+    quote: '"He is her universe and she is his galaxy; together they are one beautiful world."',
     color: 'from-amber-50 to-yellow-100',
     glow: 'rgba(201,168,76,0.4)',
   },
