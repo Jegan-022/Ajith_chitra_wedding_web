@@ -37,7 +37,7 @@ const events = [
     title: 'Grand Reception',
     date: 'August 22, 2026',
     time: '7:00 PM',
-    venue: 'Elite Grand Hotel, Chennai',
+    venue: 'Kalyana mandapam,palani',
     color: 'from-purple-50 to-lavender-100',
     accent: '#8b5cf6',
   },
